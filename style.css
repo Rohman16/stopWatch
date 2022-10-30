@@ -1,0 +1,20 @@
+@import "./palette.scss";
+body {
+  width: 80%;
+  margin: 1rem auto;
+  background-image: url("./asset/luxury-gradient-blue-background.jpg");
+}
+
+#container {
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 1rem;
+  /* margin: 0 auto; */
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+h2 {
+  color: $corn;
+}
