@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <link rel="stylesheet" href="/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>stopWatch</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="container">
-      <h2>StopWatch</h2>
-      <h2>00:00:00</h2>
-      <button>start</button>
-      <button>stop</button>
-      <button>reset</button>
+        <h2>StopWatch</h2>
+        <h2>
+            <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="tens">00</span>
+        </h2>
+        <button id="start">start</button>
+        <button id="stop">stop</button>
+        <button id="reset">reset</button>
     </div>
-  </body>
+
+    <script src="./script.js"></script>
+</body>
+
 </html>
