@@ -1,31 +1,36 @@
 @import "palette.scss";
 body {
-    width: 80%;
-    margin: 1rem auto;
-    background-image: url("./asset/luxury-gradient-blue-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 80%;
+  margin: 1rem auto;
+  background-image: url("./asset/luxury-gradient-blue-background.jpg");
+  /* background-position: ; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #container {
-    border: 2px solid red;
-    border-radius: 10px;
-    padding: 1rem;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 
 button {
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-    background-color: #f25f5cff;
-    border-radius: 5px;
-    border: 2px solid #f25f5cff;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  background-color: #f25f5cff;
+  border-radius: 5px;
+  border: 2px solid #f25f5cff;
 }
 
 h2 {
-    color: #f5e663ff;
+  color: #f5e663ff;
+}
+span {
+  margin: 0 0.6rem;
 }
