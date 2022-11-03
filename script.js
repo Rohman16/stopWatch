@@ -71,7 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
       lapsDisplay.append(lapsTitle, lapsNumber);
       document.body.append(lapsDisplay);
     } else {
-      // document.body.append(lapsNumber);
       displayLap.lastChild.insertAdjacentElement("afterend", lapsNumber);
     }
   }
